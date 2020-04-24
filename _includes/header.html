@@ -1,7 +1,7 @@
 {% if site.style == 'dark' %}
-  {% assign icon_color = "#ffffff" %}
+{% assign icon_color = "#ffffff" %}
 {% else %}
-  {% assign icon_color = "#24292e" %}
+{% assign icon_color = "#24292e" %}
 {% endif %}
 
 {% assign content = page.content %}
@@ -11,23 +11,48 @@
 {% assign user = site.github.owner %}
 
 {% if page.path contains '_posts' %}
-  {% assign page_title = page.title %}
-  {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% assign page_title = page.title %}
+{% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% else %}
-  {% assign page_title = user.name %}
-  {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% assign page_title = user.name %}
+{% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
 <!doctype html>
 <html class="min-height-full">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ meta_description }}" />
-    <meta property="og:title" content="{{ user.name }}" />
-    <meta property="og:image" content="{{ user.avatar_url }}" />
-    <meta property="og:description" content="{{ meta_description }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
-  </head>
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ meta_description }}" />
+  <meta property="og:title" content="{{ user.name }}" />
+  <meta property="og:image" content="{{ user.avatar_url }}" />
+  <meta property="og:description" content="{{ meta_description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+
+  
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+  
+</head>
+
+<body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"
+  {% endif %}>
+
+  <!-- $Page header-->
+  <header class="page-header js-header">
+    <div class="page-header__inner">
+      <div class="page-header__logo">
+        <h1>ENKR</h1>&nbsp;<span>text...</span>
+      </div>
+      <nav class="page-header__nav js-nav">
+        <ul>
+          <li><a class="page-header__nav-link js-anchor js-link is-active" href="#home">Home</a></li>
+          <li><a class="page-header__nav-link js-anchor js-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="page-header__nav-link js-anchor js-link" href="#team">About</a></li>
+          <li><a class="page-header__nav-link js-anchor js-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
