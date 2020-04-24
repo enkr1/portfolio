@@ -2,9 +2,9 @@
   <!-- $Page header-->
   <header class="page-header js-header">
     <div class="page-header__inner">
-      <div class="page-header__logo">
-        <h1>ENKR</h1>&nbsp;<span>text...</span>
-      </div>
+      <!-- <div class="page-header__logo">
+        <h1>Web</h1>&nbsp;<span>Developer</span>
+      </div> -->
       <nav class="page-header__nav js-nav">
         <ul>
           <li><a class="page-header__nav-link js-anchor js-link is-active" href="#home">Home</a></li>
@@ -24,9 +24,9 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
+    <!-- <div class="my-6">
       {% include projects.html %}
-    </div>
+    </div> -->
 
     {% if site.topics %}
       <div class="my-6">
@@ -39,6 +39,11 @@
         {% include thoughts.html %}
       </div>
     {% endunless %}
+
+    <div class="my-6">
+      {% include projects.html %}
+    </div>
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
