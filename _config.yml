@@ -16,7 +16,6 @@ github_username:  j1nghui
 
 
  # ----------------------------------
-    
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -36,9 +35,6 @@ github_username:  j1nghui
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -76,7 +72,8 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 defaults:
   -
