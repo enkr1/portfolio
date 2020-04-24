@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "JingHui's First Post!"
-published: false
+date:   <%= Time.now.strftime('2020-04-24 10:41:55 55') %>
+categories: jekyll update
 ---
 
 **Hello world**, this is my first Jekyll blog post.
