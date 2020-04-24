@@ -117,8 +117,6 @@ social_media:
   youtube: channel/UCJJmK5bN3b4izpMb2vtRXpw?view_as=subscriber
 
 topics:
-  limit: 9
-
   - name: Web design
 
   - name: Java
