@@ -56,7 +56,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-
+# ERROR!!
 # sass:
 #   sass_dir: node_modules
 
