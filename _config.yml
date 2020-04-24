@@ -31,11 +31,11 @@ projects:
 social_media:
   # behance: your_username
   # dribbble: your_username
-  facebook: your_username
+  facebook: enkrbeatbox
   # hackerrank: your_username
   instagram: enkr1
   # keybase: your_username
-  linkedin: https://www.linkedin.com/in/jinghuipang/
+  linkedin: jinghuipang/
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -44,7 +44,7 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
-  youtube: https://www.youtube.com/channel/UCJJmK5bN3b4izpMb2vtRXpw?view_as=subscriber
+  youtube: channel/UCJJmK5bN3b4izpMb2vtRXpw?view_as=subscriber
 
 topics:
   - name: CSS
