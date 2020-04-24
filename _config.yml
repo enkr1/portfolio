@@ -89,11 +89,11 @@ projects:
     - pushed
     - stars
   limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    - repo-name
+  # exclude:
+  #   archived: false
+  #   forks: true
+  #   projects:
+  #   - repo-name
 
 social_media:
   # behance: your_username
