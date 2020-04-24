@@ -1,3 +1,7 @@
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 title: JingHui
 email: enkr99@gmail.com
 description: description here
@@ -10,10 +14,7 @@ description: description here
 # twitter_username: jekyllrb
 github_username:  j1nghui
 
-# # Build settings
-# theme: minima
-# plugins:
-#   - jekyll-feed
+
  # ----------------------------------
     
 # Welcome to Jekyll!
