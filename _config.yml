@@ -117,10 +117,17 @@ social_media:
   youtube: channel/UCJJmK5bN3b4izpMb2vtRXpw?view_as=subscriber
 
 topics:
-  
   limit: 9
-  
+
   - name: Web design
+
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
+
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/android/android.png
 
   - name: CSS
     web_url: https://github.com/topics/css
@@ -130,11 +137,8 @@ topics:
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 
-    name: Android
-    web_url: https://github.com/topics/android
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/android/android.png
 
-    name: Database
+  - name: Database
     web_url: https://github.com/topics/database
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/database/database.png
 
