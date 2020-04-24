@@ -57,12 +57,12 @@ exclude:
   - vendor/ruby/
 
 
-sass:
-  sass_dir: node_modules
+# sass:
+#   sass_dir: node_modules
 
-gems:
-  - jekyll-octicons
-  - jekyll-github-metadata
+# gems:
+#   - jekyll-octicons
+#   - jekyll-github-metadata
 
 layout: sidebar
 style: light
