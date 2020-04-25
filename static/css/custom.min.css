@@ -296,9 +296,9 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     padding: 10px;
-    -webkit-transition: background-color .2s;
+    /* -webkit-transition: background-color .2s;
     -o-transition: background-color .2s;
-    transition: background-color .2s;
+    transition: background-color .2s; */
     transition: opacity 250ms ease-in-out 0ms;
     color: #000000
 }
@@ -307,7 +307,7 @@ body {
     content:'';
     display: block;
     height: 1.2px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(149, 255, 0);
     position: relative;
     left: 0;
     right: 0;
