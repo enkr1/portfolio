@@ -537,7 +537,8 @@ body {
     width: 100%;
     min-height: 100vh;
     /* padding: 70px; */
-    background: #323232 url(/images/promo-bg.jpg) center 0 no-repeat;
+    /* background: #323232 url(/images/promo-bg.jpg) center 0 no-repeat; */
+    background: #323232 url(https://enkr1.github.io/images/promo-bg.jpg) center 0 no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
