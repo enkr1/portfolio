@@ -305,6 +305,25 @@ body {
 .page-header__nav-link:hover, .page-header__nav-link.is-active {
     background-color: #2c2c2c;
     color: #fff
+    
+}
+
+.page-header__nav-link:hover::after, .page-header__nav-link.is-active::after {
+    content:'';
+    display: block;
+    height: 1.2px;
+    color: #fff;
+    position: relative;
+    left: 0;
+    right: 0;
+    
+    /* transform-origin: ; */
+    transform: scale(0, 1);
+    transition: all ease-in-out 188ms;
+    
+}
+.page-header__nav-link:hover::after, .page-header__nav-link.is-active::after {
+    transform: scale(1, 1.2);
 }
 
 .page-footer {
