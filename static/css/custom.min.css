@@ -304,11 +304,14 @@ body {
 
 .page-header__nav-link:hover, .page-header__nav-link.is-active {
     /* background-color: #2c2c2c; */
-    color: rgb(255, 0, 0)
+    /* color: rgb(63, 63, 63) */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .1s;
     
 }
 
-.page-header__nav-link:hover::after, .page-header__nav-link.is-active::after {
+.page-header__nav-link::after, .page-header__nav-link.is-active::after {
     content:'';
     display: block;
     height: 1.2px;
