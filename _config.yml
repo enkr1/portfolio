@@ -65,7 +65,7 @@ exclude:
 #   - jekyll-github-metadata
 
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
