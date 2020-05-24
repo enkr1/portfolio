@@ -12,7 +12,7 @@ description: description here
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  j1nghui
+github_username:  enkr1
 
 
  # ----------------------------------
@@ -91,7 +91,7 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     - repo-name
 
