@@ -65,7 +65,7 @@ exclude:
 #   - jekyll-github-metadata
 
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -110,7 +110,7 @@ social_media:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: https://enkr.business/
   youtube: channel/UCJJmK5bN3b4izpMb2vtRXpw?view_as=subscriber
 
 topics:
